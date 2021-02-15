@@ -1,5 +1,5 @@
 module.exports = function towelSort(matrix) {
-    if (matrix && matrix.length != 0) {
+    if (matrix) {
         function Sort(ElementArr, index) {
             var n = ElementArr.length;
             if (index % 2 == 1) { 
