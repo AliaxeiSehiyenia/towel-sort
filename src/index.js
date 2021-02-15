@@ -6,8 +6,6 @@ module.exports = function towelSort (matrix) {
            { var t = matrix[j+1]; matrix[j+1] = matrix[j]; matrix[j] = t; }
         }
      }    */    
-     matrix.sort(function(a,b) {
-         return a - b;
-     })              
+     matrix.forEach(row => row.sort((a, b) => a - b))              
      return matrix;
 }
