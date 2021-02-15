@@ -1,4 +1,4 @@
-module.exports = function towelSort (matrix) {
+function towelSort (matrix) {
     function sortNumbers(a, b) {
         return a - b;
     }  
